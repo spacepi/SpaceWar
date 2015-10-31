@@ -1,6 +1,6 @@
 {
-  "name": "threejs-boilerplate",
-  "version": "1.0.0",
+  "name": "SpaceWar",
+  "version": "0.1.0",
   "description": "threejs boilerplate project",
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
@@ -12,9 +12,10 @@
   "license": "MIT",
   "devDependencies": {
     "css-loader": "^0.9.0",
-    "sass-loader": "^0.3.0",
+    "node-sass": "^3.4.1",
+    "sass-loader": "^3.1.1",
     "style-loader": "^0.8.1",
-    "webpack": "^1.4.10",
+    "webpack": "^1.12.2",
     "webpack-dev-server": "^1.6.5"
   }
 }
